@@ -46,6 +46,7 @@ BOING
 booleans
 BoxOfficeMojo
 boxofficemojo
+boxset
 BPjM
 BritBox
 Bullmoose
@@ -111,6 +112,8 @@ ee
 eedd
 EG
 El
+emby
+Emby
 Emmys
 ENV
 env
@@ -170,6 +173,8 @@ Integrations
 isort
 iteratively
 ITVX
+jellyfin
+Jellyfin
 jfcherng
 Jinja
 JPG
@@ -228,6 +233,7 @@ MDBList
 mdblist
 MDBList's
 mecha
+MediaBrowser
 MediaStinger
 mediastinger
 Mediastingers
