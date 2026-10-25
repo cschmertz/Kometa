@@ -181,6 +181,7 @@ nav:
       - TMDb: config/tmdb.md
     - OPTIONAL CONNECTIONS:
       - Silo: config/silo.md
+      - Jellyfin and Emby: config/jellyfin.md
       - Tautulli: config/tautulli.md
       - Tracearr: config/tracearr.md
       - Github: config/github.md

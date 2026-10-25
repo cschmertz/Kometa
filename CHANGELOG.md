@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add Silo as a media server. Define it under `media_servers` and select it on a library with `server`. Silo libraries can build manual and smart collections. Posters, backdrops, logos, and overlays are applied from a URL; a local image is published to transfer.kometa.wiki first. Labels, item deletion, and playlists are not available. (#3351)
+- Add Jellyfin and Emby as media servers. A `media_servers` entry with `type: jellyfin` or `type: emby` names the server, and a library selects it with `server`. Both use the MediaBrowser API. Libraries can build boxset collections and playlists, edit tags and metadata, and upload poster, backdrop, logo, banner, and overlay images. Plex smart filters are not accepted. (#3351)
 - Add a media server object with a queryable capability matrix. Plex remains the default server, and existing `plex:` configuration is unchanged. (#3351)
 - Drop support for python 3.10 due to it going end of life. Python 3.11 or above is now required.
 - Add `dovi_level` and `dovi_profile` filters for use with `plex_all` builders.
