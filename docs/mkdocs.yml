@@ -180,6 +180,7 @@ nav:
       - Plex: config/plex.md
       - TMDb: config/tmdb.md
     - OPTIONAL CONNECTIONS:
+      - Silo: config/silo.md
       - Tautulli: config/tautulli.md
       - Tracearr: config/tracearr.md
       - Github: config/github.md
